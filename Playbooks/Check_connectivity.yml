@@ -1,0 +1,7 @@
+---
+- name: Basic Playbook
+  hosts: localhost
+  become: true
+  tasks:
+    - name: Test connectivity
+      ping:
